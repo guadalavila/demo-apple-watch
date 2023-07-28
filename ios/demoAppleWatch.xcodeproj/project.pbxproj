@@ -27,6 +27,7 @@
 		A913A1C82A7444EC00105595 /* WatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A1C72A7444EC00105595 /* WatchAppUITests.swift */; };
 		A913A1CA2A7444EC00105595 /* WatchAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A1C92A7444EC00105595 /* WatchAppUITestsLaunchTests.swift */; };
 		A913A1CD2A7444EC00105595 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A913A1972A7444E400105595 /* WatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A913A1DD2A74478700105595 /* PhoneConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = A913A1DC2A74478700105595 /* PhoneConnector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +127,7 @@
 		A913A1C32A7444EB00105595 /* WatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A913A1C72A7444EC00105595 /* WatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppUITests.swift; sourceTree = "<group>"; };
 		A913A1C92A7444EC00105595 /* WatchAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A913A1DC2A74478700105595 /* PhoneConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnector.swift; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -269,6 +271,7 @@
 				A913A1B32A7444EB00105595 /* Info.plist */,
 				A913A1B42A7444EB00105595 /* PushNotificationPayload.apns */,
 				A913A1B02A7444EB00105595 /* Preview Content */,
+				A913A1DC2A74478700105595 /* PhoneConnector.swift */,
 			);
 			path = "WatchApp WatchKit Extension";
 			sourceTree = "<group>";
@@ -706,6 +709,7 @@
 			files = (
 				A913A1A92A7444E900105595 /* NotificationController.swift in Sources */,
 				A913A1A72A7444E900105595 /* ContentView.swift in Sources */,
+				A913A1DD2A74478700105595 /* PhoneConnector.swift in Sources */,
 				A913A1AD2A7444E900105595 /* ComplicationController.swift in Sources */,
 				A913A1A52A7444E900105595 /* demoAppleWatchApp.swift in Sources */,
 				A913A1AB2A7444E900105595 /* NotificationView.swift in Sources */,
